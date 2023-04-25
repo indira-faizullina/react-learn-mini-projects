@@ -1,9 +1,9 @@
-import Counter from './Counter'
+import Modal from './Modal'
 
 function App() {
   return (
     <div>
-      <Counter />
+      <Modal />
     </div>
   )
 }
