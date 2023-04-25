@@ -1,5 +1,5 @@
 import './Modal.css'
-import React, { Fragment, useState } from 'react'
+import React, { useState } from 'react'
 
 export default function Modal() {
   const [modalVisible, setModalVisible] = useState(false)
@@ -8,7 +8,7 @@ export default function Modal() {
   const openModalHandler = () => setModalVisible(true)
 
   return (
-    <Fragment>
+    <div>
       <button className="btn btn-primary m-3" onClick={openModalHandler}>
         Показать гифку
       </button>
@@ -23,6 +23,6 @@ export default function Modal() {
           </div>
         </div>
       )}
-    </Fragment>
+    </div>
   )
 }
