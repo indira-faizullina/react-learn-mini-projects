@@ -7,7 +7,7 @@ export default function Counter() {
   const counterMinusHandler = () => setCounter((prevCounter) => prevCounter - 1)
 
   return (
-    <div className="shadow-lg p-3 mb-5 bg-body rounded">
+    <div className="shadow-lg p-4 mb-5 bg-body rounded">
       <h3>Счетчик:</h3>
       <h1>{counter}</h1>
       <button className="btn btn-danger me-2" onClick={counterMinusHandler}>
