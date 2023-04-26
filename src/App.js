@@ -4,7 +4,7 @@ import Counter from './Counter'
 import Modal from './Modal'
 import ModalWithAnimation from './ModalWithAnimation'
 import Quiz from './Quiz'
-import Users from './Users'
+import UsersList from './usersList/UsersList'
 
 export default function App() {
   const miniProjects = [
@@ -25,7 +25,7 @@ export default function App() {
       id: '4',
     },
     {
-      title: 'Список пользователей',
+      title: 'Работа со списком пользователей',
       id: '5',
     },
   ]
@@ -50,7 +50,7 @@ export default function App() {
       return <Quiz />
       break
     case 5:
-      return <Users />
+      return <UsersList />
       break
     default:
       return (
