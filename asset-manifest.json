@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-learn-mini-projects/static/css/main.e218117a.css",
+    "main.js": "/react-learn-mini-projects/static/js/main.a8e5d320.js",
+    "index.html": "/react-learn-mini-projects/index.html",
+    "main.e218117a.css.map": "/react-learn-mini-projects/static/css/main.e218117a.css.map",
+    "main.a8e5d320.js.map": "/react-learn-mini-projects/static/js/main.a8e5d320.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e218117a.css",
+    "static/js/main.a8e5d320.js"
+  ]
+}
