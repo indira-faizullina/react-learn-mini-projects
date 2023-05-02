@@ -1,0 +1,16 @@
+.ul {
+  list-style-type: none;
+
+  .li {
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 30px;
+    text-align: start;
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(97, 83, 226);
+    }
+  }
+}
