@@ -1,11 +1,12 @@
 import './App.scss'
 import React, { useState } from 'react'
 import Counter from './Counter'
-import Modal from './Modal'
-import ModalWithAnimation from './ModalWithAnimation'
+import Modal from './Modals/Modal'
+import ModalWithAnimation from './Modals/ModalWithAnimation'
 import Quiz from './Quiz'
 import UsersList from './usersList/UsersList'
 import Colors from './Colors'
+import Photos from './Photo Collection/Photos'
 
 export default function App() {
   const miniProjects = [
@@ -17,27 +18,32 @@ export default function App() {
     {
       title: 'Вызов модального окна',
       id: '2',
-      component: <Modal />,
-    },
-    {
-      title: 'Вызов модального окна с плавной анимацией',
-      id: '3',
-      component: <ModalWithAnimation />,
+      component: (
+        <div>
+          <Modal />
+          <ModalWithAnimation />
+        </div>
+      ),
     },
     {
       title: 'Квиз',
-      id: '4',
+      id: '3',
       component: <Quiz />,
     },
     {
       title: 'Работа со списком пользователей',
-      id: '5',
+      id: '4',
       component: <UsersList />,
     },
     {
       title: 'Цвета',
-      id: '6',
+      id: '5',
       component: <Colors />,
+    },
+    {
+      title: 'Фото-коллекции',
+      id: '6',
+      component: <Photos />,
     },
   ]
 

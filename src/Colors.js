@@ -18,11 +18,9 @@ export default function Colors() {
     <div>
       <ul className={styles.ul}>
         {colors.map((color, index) => (
-          <li
-            key={index}
-            className={styles.li}
-            style={{ background: color }}
-          ></li>
+          <li key={index} className={styles.li} style={{ background: color }}>
+            {color}
+          </li>
         ))}
       </ul>
       <button className="btn btn-primary" onClick={addRandomColor}>
